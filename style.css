@@ -15,8 +15,18 @@ text-align:center;
 background-color: pink;
 border: rgb(250, 162, 177) 2px solid;
 margin-bottom: 100px;
-height: 55px;
+padding: 18px;
 }
+
+header>h1{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: inherit;
+    color: rgb(3, 91, 3);
+
+}
+
+
 
 header>a{
     text-decoration: none;
