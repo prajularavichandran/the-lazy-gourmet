@@ -14,21 +14,8 @@ font-weight: 500;
 text-align:center;
 background-color: pink;
 border: rgb(250, 162, 177) 2px solid;
-margin-bottom: 100px;
+margin-bottom: 0px;
 padding: 18px;
-}
-
-footer{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-text-align:center;
-color: pink;
-border: rgb(19, 73, 3) 2px solid;
-}
-
-footer>p{
-padding: 25px;
-background-color: rgb(3, 91, 3);
 }
 
 
@@ -42,28 +29,39 @@ header>h1{
 
 header>a{
     text-decoration: none;
-    /* border: green 2px solid; */
-    /* border: red 2px solid; */
 margin: 10px;
-    /* padding: 2px; */
-    /* background-color: pink; */
     color:rgb(2, 105, 2);
     background-color: inherit;
 }
 
 section{
+    text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin: 100px;
-    border: rgb(1, 47, 1) 2px solid;
+    margin: 25px;
+    border: blue(1, 47, 1) 2px solid;
     width: 300px;
     height: 250px;
     border-radius: 10px;
+    margin: 50px;
 }
 
 section>img{
+     border: red 2px solid;
     width: inherit;
     height: inherit;
 object-fit:cover;
 border-radius: inherit;
+}
+
+footer{
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+text-align:center;
+}
+
+footer>p{
+padding: 25px;
+color: green;
+font-weight: bold;
 }
