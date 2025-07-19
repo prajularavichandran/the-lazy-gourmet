@@ -41,7 +41,7 @@ header a {
 
 .page-links{
     margin-top: 14px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 body{
@@ -80,9 +80,6 @@ section > img {
   border-radius: 30px;
 }
 
-.feedback-section{
-height: 600px;
-}
 
 footer{
     margin-top: 40px;
