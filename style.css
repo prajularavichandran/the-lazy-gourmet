@@ -40,7 +40,8 @@ header a {
 }
 
 .page-links{
-    margin-top: 20px;
+    margin-top: 14px;
+    text-decoration-line: underline;
 }
 
 body{
@@ -61,7 +62,6 @@ body{
   width: 300px;
   height: 250px;
   margin: 20px;
-  margin-bottom: 30px;
 }
 
 h2{
